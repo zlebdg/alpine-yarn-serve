@@ -6,4 +6,4 @@ RUN apk --update add yarn bash && yarn add global serve && rm -rf /var/cache/apk
 
 EXPOSE 5000
 
-CMD serve ./dist/
+CMD yarn serve ./dist/
